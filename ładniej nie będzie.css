@@ -1,0 +1,40 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+/* Custom properties */
+
+:root{
+
+}
+
+/* Base styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+
+
+#welcome {
+    color: red;
+    height: 200px;
+    width: 200px;
+    font-size:2rem;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
