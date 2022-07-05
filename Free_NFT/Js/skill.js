@@ -18,3 +18,35 @@ const toggleMenu = () => {
 }
 
 menuToggleIcon.addEventListener('click', toggleMenu);
+
+
+
+//Kubuś 
+
+
+const adonis_1 = document.getElementById("spiner");
+
+
+function animation_1 (){
+    document.getElementById('test_1').classList.add('spin');
+    console.log("dział");
+
+}
+
+
+adonis_1.addEventListener("click",animation_1);
+
+
+
+//Bobik
+
+
+const adonis_3 = document.getElementById("fliper");
+
+
+function animation_3() {
+    document.getElementById('test_3').classList.add('flip');
+    console.log("dział to też")
+  }
+
+adonis_3.addEventListener('click',animation_3);
