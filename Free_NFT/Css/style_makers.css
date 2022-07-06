@@ -21,7 +21,8 @@
 body {
     min-height:100vh;
     width: 100%;
-    background-color: #090808;
+    background-color: rgba(18, 18, 18, 1);
+    background-image: linear-gradient(221deg, rgba(18, 18, 18, 1) 59%, rgba(74, 74, 76, 1) 100%);
     font-size: 2rem;
 }
 
@@ -33,6 +34,8 @@ body {
     top:0;
     left: 0;
     width:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(10, 233, 129);
     
     
 }
@@ -50,24 +53,6 @@ img.model{
 
 /* Animation */
 
-.overview {
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-     width: 400px;
-     height: 500px;
-     margin: 40px 30px;
-     z-index: 1;
-     background-color: #252830;
-    
-     /* box-shadow: 0 0 1.5em 0 hsl(317 100% 54%); */
-    
- }
-
-.overview:hover{
- transform: scale(1.1);
-}
 
 
 
@@ -97,6 +82,7 @@ img.model{
     height:456px;
     padding:40px 30px;
     margin:40px;
+    border-radius: 0.3em;
   
     
 }
@@ -242,7 +228,7 @@ background-image: radial-gradient(circle, rgba(212, 64, 125, 1) 0%, rgba(0, 0, 0
 
 .spin {
     animation-name: spin;
-        animation-duration: 100ms;
+        animation-duration: 1000ms;
         animation-iteration-count: 10;
         animation-timing-function: linear;
     }
@@ -255,7 +241,7 @@ background-image: radial-gradient(circle, rgba(212, 64, 125, 1) 0%, rgba(0, 0, 0
 
 .flip {
     animation-name: flipp;
-        animation-duration: 100ms;
+        animation-duration: 1000ms;
         animation-iteration-count: 10;
         animation-timing-function: linear;
     }
@@ -266,3 +252,9 @@ background-image: radial-gradient(circle, rgba(212, 64, 125, 1) 0%, rgba(0, 0, 0
     }
 
     
+
+
+    .glitter {
+        background-image:url(/Free_NFT/images/gliter.gif) ;
+        background-size: cover;
+    }

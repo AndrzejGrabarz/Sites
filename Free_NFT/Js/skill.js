@@ -36,6 +36,18 @@ function animation_1 (){
 
 adonis_1.addEventListener("click",animation_1);
 
+//wierzba
+
+
+const adonis_2 = document.getElementById("sparkle");
+
+
+function animation_2() {
+    document.getElementById('test_2').classList.add('glitter');
+    console.log("dział to też")
+  }
+
+adonis_2.addEventListener('click',animation_2);
 
 
 //Bobik
@@ -50,3 +62,4 @@ function animation_3() {
   }
 
 adonis_3.addEventListener('click',animation_3);
+
